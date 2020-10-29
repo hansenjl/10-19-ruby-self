@@ -7,8 +7,8 @@ class Traveller
         @travel_log = ''
     end
 
-    def travel(loc)
-        @travel_log += "I travelled to #{loc}."
+    def travel(location)
+        @travel_log += "I travelled to #{location}."
         self
     end
 
